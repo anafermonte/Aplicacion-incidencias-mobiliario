@@ -1,0 +1,16 @@
+.jimu-widget-zoomslider {
+  background-color: transparent;
+}
+
+.jimu-widget-zoomslider.vertical .zoom-in {
+  border-bottom: none;
+}
+
+.jimu-widget-zoomslider .zoom {
+  color: #FFF;
+  background: #028b7199;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  margin-bottom: 5px;
+}
