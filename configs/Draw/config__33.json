@@ -1,0 +1,22 @@
+{
+  "locationUnits": [
+    {
+      "unit": "DEGREE-MINUTE-SECOND",
+      "abbr": "dms",
+      "format": "A°B'C\"N X°Y'Z\"E"
+    }
+  ],
+  "distanceUnits": [
+    {
+      "unit": "KILOMETERS",
+      "abbr": "km"
+    }
+  ],
+  "areaUnits": [
+    {
+      "unit": "SQUARE_KILOMETERS",
+      "abbr": "km²"
+    }
+  ],
+  "isOperationalLayer": true
+}
