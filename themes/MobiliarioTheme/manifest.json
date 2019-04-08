@@ -1,0 +1,34 @@
+{
+  "name": "MobiliarioTheme",
+  "platform": "HTML",
+  "panels": [
+    {
+      "name": "SimpleBorderPanel",
+      "description": "This is a panel with a border"
+    }
+  ],
+  "styles": [
+    {
+      "name": "default",
+      "description": "this is light style",
+      "styleColor": "#028b71"
+    },
+    {
+      "name": "light",
+      "description": "this is blue-green style",
+      "styleColor": "#028b71"
+    }
+  ],
+  "layouts": [
+    {
+      "name": "default",
+      "description": "this is the default layout"
+    }
+  ],
+  "version": "2.11",
+  "wabVersion": "2.11",
+  "author": "Ana Fernández Monterubio, Pablo Fernández Rodríguez y Myriam Domínguez del Río",
+  "description": "Modificación del tema Dashboard",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0"
+}

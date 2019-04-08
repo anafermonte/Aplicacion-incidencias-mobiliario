@@ -1,0 +1,189 @@
+{
+  "layout": {
+    "definition": [
+      {
+        "type": "column",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "width": 100,
+        "content": [
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 18.647667762757283,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "4767866934599705-1"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "4767866934599705-1"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 48.018998903909406,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "4767866934599705-2"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "4767866934599705-2"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "height": 33.33333333333333,
+            "activeItemIndex": 0,
+            "content": [
+              {
+                "id": "4767866934599705-3",
+                "type": "component",
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "4767866934599705-3"
+                },
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "jimu grid"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dijits": [
+    {
+      "id": "4767866934599705-1",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#028b71",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 16,
+          "textColor": "#000001"
+        },
+        "text": "PROGRESO DE LAS INCIDENCIAS"
+      }
+    },
+    {
+      "id": "4767866934599705-2",
+      "type": "chart",
+      "visible": true,
+      "config": {
+        "mode": "feature",
+        "type": "pie",
+        "labelField": "status",
+        "valueFields": [
+          "priority"
+        ],
+        "sortOrder": {
+          "isAsc": true
+        },
+        "maxLabels": 100,
+        "backgroundColor": "#028b71",
+        "seriesStyle": {
+          "styles": [
+            {
+              "style": {
+                "color": [
+                  "#fee1be",
+                  "#bb8b1b"
+                ]
+              },
+              "name": "pie~not-field",
+              "label": "pie~not-field"
+            }
+          ],
+          "type": "series"
+        },
+        "legend": {
+          "show": false,
+          "textStyle": {
+            "color": "#000",
+            "fontSize": 12
+          }
+        },
+        "dataLabel": {
+          "show": false,
+          "textStyle": {
+            "color": "#000",
+            "fontSize": 12
+          }
+        },
+        "innerRadius": 32.5
+      }
+    },
+    {
+      "id": "4767866934599705-3",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#028b71",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "top"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 12,
+          "textColor": "#000001"
+        },
+        "text": "Información a tiempo real sobre el estado de las incidencias."
+      }
+    }
+  ],
+  "name": "donut",
+  "wid": "4767866934599705",
+  "dataSource": {
+    "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
+    "name": "assignments_7c9b36c570cd42dea14975da851d66d7",
+    "layerId": "assignments_7c9b36c570cd42dea14975da851d66d7_6311",
+    "useSelection": true,
+    "filterByExtent": "on"
+  }
+}
