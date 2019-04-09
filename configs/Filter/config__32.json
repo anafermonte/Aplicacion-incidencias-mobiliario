@@ -1,0 +1,56 @@
+{
+  "taskOper": "OR",
+  "groupByLayer": true,
+  "zoomto": true,
+  "allowCustom": true,
+  "filters": [
+    {
+      "layerId": "service_6c765e8a03cb46f887b1666eb8b8fcaa_7156",
+      "url": "https://services8.arcgis.com/BtkRLT3YBKaVGV3g/arcgis/rest/services/service_6c765e8a03cb46f887b1666eb8b8fcaa/FeatureServer/0",
+      "name": "Incidencias",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "pregunta4",
+              "label": "pregunta4",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": ""
+            },
+            "interactiveObj": {
+              "prompt": "Indique su distrito",
+              "hint": "(Puente de Vallecas)",
+              "cascade": "none"
+            },
+            "caseSensitive": false
+          }
+        ],
+        "expr": "",
+        "displaySQL": ""
+      },
+      "icon": null,
+      "enableMapFilter": true,
+      "autoApplyWhenWidgetOpen": false,
+      "collapse": false,
+      "symbol": {
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 12,
+        "type": "esriPMS",
+        "url": "http://static.arcgis.com/images/Symbols/Basic/YellowStickpin.png",
+        "imageData": "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",
+        "contentType": "image/png",
+        "width": 18,
+        "height": 18
+      }
+    }
+  ]
+}
